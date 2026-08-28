@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  /* --font-txt: 'Fraunces', serif; */
+  --font-txt: 'Manrope', serif;
+
+  --color-bg: rgb(250, 251, 252);
+  --color-bg2: rgb(241, 243, 246);
+  --color-bg3: rgb(233, 236, 241);
+  --color-bg4: rgb(189, 189, 189);
+
+  --color-txt: rgb(32, 36, 43);
+  --color-txt2: rgb(91, 100, 114);
+  --color-txt3: rgb(139, 147, 161);
+
+  --color-bg-today: rgb(65, 157, 255);
+  --color-bg-past: rgb(241, 243, 246);
+  --color-bg-future: rgb(216, 248, 255);
+
+  --color-disabled: rgb(211, 211, 211);
+  --color-txt-overlay: rgb(255, 255, 255);
+  --color-txt-disabled: rgb(166, 166, 166);
+  --color-txt-expired: rgb(95, 95, 95);
+
+  --color-border-light: rgb(221, 221, 221);
+  --color-border: rgb(32, 36, 43);
+  --color-border2: rgb(91, 100, 114);
+  --color-border3: rgb(139, 147, 161);
+
+  --color-label: rgb(75, 75, 75);
+  --color-highlight: yellow;
+  --color-cell-hover: orange;
+  --color-bg-spinner: rgba(147, 147, 147, 0.5);
+}
+
+.light {
+  --color-bg: rgb(250, 251, 252);
+  --color-bg2: rgb(241, 243, 246);
+  --color-bg3: rgb(233, 236, 241);
+  --color-bg4: rgb(189, 189, 189);
+
+  --color-txt: rgb(32, 36, 43);
+  --color-txt2: rgb(91, 100, 114);
+  --color-txt3: rgb(139, 147, 161);
+
+  --color-bg-today: rgb(65, 157, 255);
+  --color-bg-past: rgb(241, 243, 246);
+  --color-bg-future: rgb(216, 248, 255);
+
+  --color-disabled: rgb(211, 211, 211);
+  --color-txt-overlay: rgb(255, 255, 255);
+  --color-txt-disabled: rgb(166, 166, 166);
+  --color-txt-expired: rgb(95, 95, 95);
+
+  --color-border-light: rgb(221, 221, 221);
+  --color-border: rgb(32, 36, 43);
+  --color-border2: rgb(91, 100, 114);
+  --color-border3: rgb(139, 147, 161);
+
+  --color-label: rgb(75, 75, 75);
+  --color-highlight: yellow;
+  --color-cell-hover: orange;
+  --color-bg-spinner: rgba(147, 147, 147, 0.5);
+
+  --radius-big: 10px;
+  --radius-sml: 5px;
+  --radius-tiny: 4px;
+}
+
+.dark {
+  --color-bg: rgb(23, 25, 30);
+  --color-bg2: rgb(30, 33, 39);
+  --color-bg3: rgb(38, 42, 50);
+  --color-bg4: rgb(189, 189, 189);
+
+  --color-txt: rgb(228, 230, 234);
+  --color-txt2: rgb(155, 163, 176);
+  --color-txt3: rgb(146, 146, 146);
+
+  --color-bg-today: rgb(119, 30, 64);
+  --color-bg-past: rgb(26, 26, 26);
+  --color-bg-future: rgb(129, 91, 105);
+
+  --color-disabled: rgb(150, 150, 150);
+  --color-txt-overlay: rgb(215, 216, 219);
+  --color-txt-disabled: rgb(102, 102, 102);
+  --color-txt-expired: rgb(43, 43, 43);
+
+  --color-border-light: rgb(61, 61, 61);
+  --color-border: rgb(19, 6, 8);
+  --color-border2: rgb(87, 87, 87);
+  --color-border3: rgb(58, 58, 58);
+
+  --color-label: rgb(75, 75, 75);
+  --color-highlight: rgb(161, 0, 75);
+  --color-cell-hover: rgb(161, 0, 48);
+  --color-bg-spinner: rgba(65, 65, 65, 0.5);
+}

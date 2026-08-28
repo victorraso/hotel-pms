@@ -1,0 +1,25 @@
+.spinner {
+  display: inline-grid;
+  /* padding: calc(var(--spinner-size) * 0.125); */
+  /* background: var(--color-bg);
+  filter: blur(4px) contrast(12); */
+}
+.spinner:before {
+  content: '';
+  height: var(--spinner-size);
+  aspect-ratio: 3;
+  --c: #0000 64%, var(--color-txt) 66% 98%, #0000 101%;
+  background:
+    radial-gradient(35% 146% at 50% 159%, var(--c)) 0 0,
+    radial-gradient(35% 146% at 50% -59%, var(--c)) 100% 100%;
+  background-size: calc(200% / 3) 50%;
+  background-repeat: repeat-x;
+  animation: l11 0.8s infinite linear;
+}
+@keyframes l11 {
+  to {
+    background-position:
+      -200% 0,
+      -100% 100%;
+  }
+}
